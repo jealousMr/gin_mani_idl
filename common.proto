@@ -34,14 +34,12 @@ message UserInfo{
   int64 gender = 4;
   string country = 5;
   UserState user_state = 7;
-  int64 CreateTime = 8;
 }
 
 message UserRecord{
   string user_id = 1;
   string rule_id = 2;
   string extra = 3;
-  int64 CreateTime = 8;
 }
 
 /////////center model
@@ -84,8 +82,6 @@ message Rule{
   RuleConfig rule_config = 4;
   RuleState rule_state = 5;
   ExecuteType execute_type = 6; // 是否立刻执行
-  int64 CreateTime = 7;
-  int64 UpdateTime = 8;
 }
 
 
@@ -109,8 +105,6 @@ message Task{
   string output_name = 5;
   string output_url = 6;
   FileState output_file = 7;
-  int64 CreateTime = 8;
-  int64 UpdateTime = 9;
 }
 
 
