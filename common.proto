@@ -71,8 +71,7 @@ message RuleConfig{
   string desc_text = 1; // 文字描述
   string source_url = 2; // 图片链接/地址
   string source_name = 3; //图片名字
-  string source_file = 4; // 图片文件
-  FileState source_state = 5; // source_file是否存在
+  FileState source_state = 4; // source_file是否存在
 }
 
 message Rule{
